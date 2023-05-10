@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="Imagenes/logo.png" alt="Logo Alura">
+        </header>
+        <main class="container">
+            <section class="seccion1">
+                <textarea id="texto" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="validar">
+                    <p> <i class="fa-solid fa-circle-exclamation"></i> Solo letras minusculas y sin acentos</p>
+                    <div class="botones">
+                        <button class="btnEncriptar">Encriptar</button>
+                        <button class="btnDecencriptar">Decencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="resultado">
+                    <img src="Imagenes/Muñeco.png" alt="Imagen encriptación">
+                    <h3>Ningun mensaje fue encriptado</h3>
+                    <p>Encuentra el texto que deseas encriptar o desencriptar</p>
+                </div>
+            </section>
+        </main>
+        <script src="javascript/script.js"></script>
+        <footer>
+            <p>Emanuel Tais</p>
+            <div class="contact">
+                <a href="mailto:pupa099@gmail.com"><i class="far fa-envelope text-gmail"></i></a>
+                <a href="https://www.linkedin.com/in/emanueltais/"><i class="fab fa-linkedin text-linkedin"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
